@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pantai Marina</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero {
+      background-image: url('gambar/star\ wars\ Galaxy\'s\ Edge_SW.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .navbar-item img {
+      max-height: 70px;
+    }
+
+    .overlay-box {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .is-justify {
+      text-align: justify;
+    }
+
+    .message {
+      margin-bottom: 1rem;
+    }
+
+    .footer-box {
+      background-color: #1f1f1f;
+      color: #f0f0f0;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="gambar/LOGO.png" alt="site logo" style="max-height: 40px" class="py- 1 px-1">
+      </a>
+    
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a href="exploresmrg.html" class="navbar-item has-text-white is-size-20">Home</a>
+        <a class="navbar-item has-text-white is-size-20">Contact</a>
+        <a class="navbar-item has-text-white is-size-20">Sign in</a>
+      </div>
+    </div>
+  </nav>
+
+  <script src="exploresmrg.js"></script>
+
+  <!-- Hero Section -->
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-multiline" style="margin-top: 5rem;">
+          
+          <!-- KONTEN UTAMA -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            <div class="overlay-box  is-size-5-desktop is-size-5-mobile">
+              <h1 class="title is-size-2-desktop is-size-5-mobile has-text-white">Star Wars: Galaxy’s Edge</h1>
+              <hr style="background-color: white;">
+              <p class="is-justify is-size-5-desktop is-size-6-mobile">
+               Star Wars: Galaxy’s Edge at Disneyland California is a fully immersive themed land that transports visitors to the remote outpost planet of Batuu in the Star Wars galaxy. Designed with extraordinary detail—from architecture and ambient sounds to smells and in-universe characters—this area makes guests feel like they’ve stepped right into a Star Wars movie. You’ll encounter characters like Rey, Chewbacca, Kylo Ren, and Stormtroopers as you explore markets, spacecraft hangars, and the famous Oga’s Cantina. With high-tech attractions and a rich, story-driven environment, Galaxy’s Edge is a must-visit for Star Wars fans of all ages.
+              </p>
+            </div>
+          </div>
+
+          <!-- Wahana dan Atraksi -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            
+            <article class="message is-white">
+              <div class="message-header">
+                <p>1. Millennium Falcon: Smugglers Run</p>
+              </div>
+              <div class="message-body">
+                Step aboard the iconic Millennium Falcon and go on an interactive smuggling mission. Guests take on roles as pilots, gunners, or engineers in this thrilling flight simulator featuring responsive controls and cinematic visuals.
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>2. Star Wars: Rise of the Resistance</p>
+              </div>
+              <div class="message-body">
+               One of Disneyland’s most technologically advanced rides, this epic attraction combines a trackless dark ride, simulator sequences, and lifelike animatronics. Guests join the Resistance and face off against the First Order in a large-scale, story-driven adventure.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>3. Oga’s Cantina</p>
+              </div>
+              <div class="message-body">
+               A lively galactic bar offering themed drinks and snacks, all set to music spun by DJ R-3X, a reprogrammed droid. The cantina is known for its immersive setting and requires advance reservations due to popularity.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>4. Droid Depot</p>
+              </div>
+              <div class="message-body">
+                Build your own custom droid that interacts with the environment. This hands-on experience is fun for all ages and allows you to take home a working, personalized Star Wars companion.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>5. Savi’s Workshop – Handbuilt Lightsabers</p>
+              </div>
+              <div class="message-body">
+                An intimate and cinematic experience where guests construct a custom lightsaber guided by “Gatherers.” With storytelling and ceremonial touches, it’s a dream come true for fans who want to wield the power of the Force.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>6. Merchant Row & Black Spire Outpost</p>
+              </div>
+              <div class="message-body">
+               A bustling marketplace filled with Star Wars-themed shops selling Resistance and First Order apparel, handmade galactic toys, Jedi gear, and collectibles universe souvenirs.
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-box has-text-centered is-size-7-mobile is-size-7-desktop">
+    <strong>WONDERLY</strong> by <a href="#" class="has-text-warning">Angelica Novita & Hasna' Niyabah</a><br>
+    <small>&copy; 2025 WONDERLY. All rights reserved.</small>
+  </footer>
+</body>
+</html>

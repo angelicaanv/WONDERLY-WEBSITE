@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Browncanyon</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero {
+      background-image: url('gambar/tommorowland_TL.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .navbar-item img {
+      max-height: 70px;
+    }
+
+    .overlay-box {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .is-justify {
+      text-align: justify;
+    }
+
+    .message {
+      margin-bottom: 1rem;
+    }
+
+    .footer-box {
+      background-color: #1f1f1f;
+      color: #f0f0f0;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="gambar/LOGO.png" alt="site logo" style="max-height: 40px" class="py- 1 px-1">
+      </a>
+    
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a href="exploresmrg.html" class="navbar-item has-text-white is-size-20">Home</a>
+        <a class="navbar-item has-text-white is-size-20">Contact</a>
+        <a class="navbar-item has-text-white is-size-20">Sign in</a>
+      </div>
+    </div>
+  </nav>
+
+  <script src="exploresmrg.js"></script>
+
+  <!-- Hero Section -->
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-multiline" style="margin-top: 5rem;">
+          
+          <!-- KONTEN UTAMA -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            <div class="overlay-box  is-size-5-desktop is-size-5-mobile">
+              <h1 class="title is-size-2-desktop is-size-5-mobile has-text-white">Tommorowland</h1>
+              <hr style="background-color: white;">
+              <p class="is-justify is-size-5-desktop is-size-6-mobile">
+                Tomorrowland is a futuristic-themed area in Disneyland California that represents humanity's vision of the future, imagined through the lens of 1950s optimism and beyond. It celebrates innovation, space exploration, and scientific advancement. With sleek architecture, neon lighting, and electronic music, Tomorrowland immerses guests in a world of technological wonder and adventure. The land also features popular franchises like Star Wars, Pixar, and Marvel, blending science fiction with imaginative storytelling.
+              </p>
+            </div>
+          </div>
+
+          <!-- Wahana dan Atraksi -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            
+            <article class="message is-white">
+              <div class="message-header">
+                <p>1. Space Mountain</p>
+              </div>
+              <div class="message-body">
+                An indoor roller coaster that simulates a high-speed journey through deep space with stars, comets, and galaxies.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>2. Star Tours – The Adventures Continue</p>
+              </div>
+              <div class="message-body">
+                A 3D motion simulator that takes guests on randomized intergalactic missions with characters from the Star Wars universe.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>3. Buzz Lightyear Astro Blasters</p>
+              </div>
+              <div class="message-body">
+                An interactive dark ride where guests use laser blasters to shoot targets and earn points, helping Buzz Lightyear defeat Emperor Zurg.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>4. Finding Nemo Submarine Voyage</p>
+              </div>
+              <div class="message-body">
+                A submarine adventure that dives into an underwater world, following the story of Finding Nemo through immersive animation and effects.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>5. Autopia</p>
+              </div>
+              <div class="message-body">
+                A classic ride where guests of all ages can drive gasoline-powered cars along a winding track designed with a futuristic twist.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>6. Astro Orbitor</p>
+              </div>
+              <div class="message-body">
+                A spinning rocket ride where guests can control the height of their vehicle as they orbit above Tomorrowland.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>7. Disneyland Monorail</p>
+              </div>
+              <div class="message-body">
+                A sleek, futuristic transportation system offering a scenic ride between Tomorrowland and Downtown Disney.
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-box has-text-centered is-size-7-mobile is-size-7-desktop">
+    <strong>WONDERLY</strong> by <a href="#" class="has-text-warning">Angelica Novita & Hasna' Niyabah</a><br>
+    <small>&copy; 2025 WONDERLY. All rights reserved.</small>
+  </footer>
+</body>
+</html>

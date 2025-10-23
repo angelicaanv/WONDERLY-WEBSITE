@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sam Poo Kong</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero {
+      background-image: url('gambar/frontier\ land_FL.jpeg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .navbar-item img {
+      max-height: 70px;
+    }
+
+    .overlay-box {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .is-justify {
+      text-align: justify;
+    }
+
+    .message {
+      margin-bottom: 1rem;
+    }
+
+    .footer-box {
+      background-color: #1f1f1f;
+      color: #f0f0f0;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="gambar/LOGO.png" alt="site logo" style="max-height: 40px" class="py- 1 px-1">
+      </a>
+    
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a href="exploresmrg.html" class="navbar-item has-text-white is-size-20">Home</a>
+        <a class="navbar-item has-text-white is-size-20">Contact</a>
+        <a class="navbar-item has-text-white is-size-20">Sign in</a>
+      </div>
+    </div>
+  </nav>
+
+  <script src="exploresmrg.js"></script>
+
+  <!-- Hero Section -->
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-multiline" style="margin-top: 5rem;">
+          
+          <!-- KONTEN UTAMA -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            <div class="overlay-box  is-size-5-desktop is-size-5-mobile">
+              <h1 class="title is-size-2-desktop is-size-5-mobile has-text-white">Frontierland</h1>
+              <hr style="background-color: white;">
+              <p class="is-justify is-size-5-desktop is-size-6-mobile">
+                Frontierland depicts the life and adventure of the American Wild West in the 19th century, with a cowboy and exploration theme as its main highlight. The area features red rock mountains, a man-made lake, and a Western-style town. One of its main attractions is Big Thunder Mountain Railroad, a roller coaster themed around mountain mining. Visitors are invited to explore the world of pioneers, gold miners, and Native American tribes. The design is filled with natural elements like wood, stone, and water, creating an authentic desert frontier atmosphere.
+              </p>
+            </div>
+          </div>
+
+          <!-- Wahana dan Atraksi -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            
+            <article class="message is-white">
+              <div class="message-header">
+                <p>1. Big Thunder Mountain Railroad</p>
+              </div>
+              <div class="message-body">
+               A roller coaster themed around a gold mine in the mountains. One of Frontierland’s main icons, offering a fast and twisting ride through red rock canyons.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>2. Mark Twain Riverboat</p>
+              </div>
+              <div class="message-body">
+               A classic 19th-century-style steamship that takes guests on a scenic journey along the Rivers of America. The surroundings include forest landscapes, animatronic wildlife, and Native American village scenes.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>3. Pirate's Lair on Tom Sawyer Island</p>
+              </div>
+              <div class="message-body">
+                An adventure island accessible only by raft. Visitors can explore caves, swinging bridges, pirate hideouts, and the imaginative world of Tom Sawyer.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>4. Disneyland Railroad – Frontierland Station</p>
+              </div>
+              <div class="message-body">
+                A Wild West-themed train station that is one of four stops on the Disneyland Railroad. It offers a relaxing ride around the entire park.
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>5. Frontierland Shootin' Exposition</p>
+              </div>
+              <div class="message-body">
+                An interactive shooting gallery where guests can use laser rifles to hit animatronic targets. The setting resembles an old Western town.
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-box has-text-centered is-size-7-mobile is-size-7-desktop">
+    <strong>WONDERLY</strong> by <a href="#" class="has-text-warning">Angelica Novita & Hasna' Niyabah</a><br>
+    <small>&copy; 2025 WONDERLY. All rights reserved.</small>
+  </footer>
+</body>
+</html>

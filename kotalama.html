@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kota Lama</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero {
+      background-image: url('gambar/kotalamasemarang.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .navbar-item img {
+      max-height: 70px;
+    }
+
+    .overlay-box {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .is-justify {
+      text-align: justify;
+    }
+
+    .message {
+      margin-bottom: 1rem;
+    }
+
+    .footer-box {
+      background-color: #1f1f1f;
+      color: #f0f0f0;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="gambar/LOGO.png" alt="site logo" style="max-height: 40px" class="py- 1 px-1">
+      </a>
+    
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a href="exploresmrg.html" class="navbar-item has-text-white is-size-20">Home</a>
+        <a class="navbar-item has-text-white is-size-20">Contact</a>
+        <a class="navbar-item has-text-white is-size-20">Sign in</a>
+      </div>
+    </div>
+  </nav>
+
+  <script src="exploresmrg.js"></script>
+
+  <!-- Hero Section -->
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-multiline" style="margin-top: 5rem;">
+          
+          <!-- KONTEN UTAMA -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            <div class="overlay-box  is-size-5-desktop is-size-5-mobile">
+              <h1 class="title is-size-2-desktop is-size-5-mobile has-text-white">Kota Lama</h1>
+              <hr style="background-color: white;">
+              <p class="is-justify is-size-5-desktop is-size-6-mobile">
+                Main Street, USA is the first area that greets visitors upon entering Disneyland. Designed to resemble a small town in early 20th-century America, this area was inspired by Walt Disney’s hometown of Marceline, Missouri. The main street is lined with vintage-style buildings, classic hanging lamps, flags, and nostalgic ornaments that create a warm and memory-filled atmosphere.
+              </p>
+            </div>
+          </div>
+
+          <!-- Wahana dan Atraksi -->
+          <div class="column is-size-5-desktop is-size-5-mobile">
+            
+            <article class="message is-white">
+              <div class="message-header">
+                <p>1. Disneyland Railroad – Main Street Station</p>
+              </div>
+              <div class="message-body">
+                A classic steam train that circles the entire Disneyland park. The main station is located on Main Street and serves as the starting point for the journey around the park.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>2. Great Moments with Mr. Lincoln</p>
+              </div>
+              <div class="message-body">
+                A theatrical show featuring an Audio-Animatronic figure of Abraham Lincoln. It tells the story of American history with dramatic visuals and sound.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>3. The Disneyland Story presenting Walt Disney</p>
+              </div>
+              <div class="message-body">
+                A small exhibition area that tells the story of Walt Disney and the creation of Disneyland. It is often combined with the Mr. Lincoln attraction.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>4. Horse-Drawn Streetcars</p>
+              </div>
+              <div class="message-body">
+                Streetcars pulled by horses, giving visitors a ride down Main Street.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>5. Omnibus & Jitney</p>
+              </div>
+              <div class="message-body">
+                Vintage vehicles such as the double-decker Omnibus and the smaller Jitney car that visitors can ride to explore Main Street.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>6. Main Street Cinema</p>
+              </div>
+              <div class="message-body">
+                A classic-style cinema on Main Street that screens vintage Mickey Mouse and Disney short films in black and white.
+              </div>
+            </article>
+
+            <article class="message is-white">
+              <div class="message-header">
+                <p>7. Dapper Dans</p>
+              </div>
+              <div class="message-body">
+                A barbershop quartet that performs live musical shows along Main Street, adding charm and harmony to the atmosphere.
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-box has-text-centered is-size-7-mobile is-size-7-desktop">
+    <strong>WONDERLY</strong> by <a href="#" class="has-text-warning">Angelica Novita & Hasna' Niyabah</a><br>
+    <small>&copy; 2025 WONDERLY. All rights reserved.</small>
+  </footer>
+</body>
+</html>
